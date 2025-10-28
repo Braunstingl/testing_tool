@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1076</width>
-    <height>839</height>
+    <width>1128</width>
+    <height>875</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -180,7 +180,7 @@
       <string>RTS</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_3">
+    <widget class="QPushButton" name="btn_closeSerialPort">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -193,7 +193,7 @@
       <string>Close</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_2">
+    <widget class="QPushButton" name="btn_connectSerialPort">
      <property name="geometry">
       <rect>
        <x>50</x>
@@ -212,7 +212,7 @@
      <rect>
       <x>540</x>
       <y>20</y>
-      <width>531</width>
+      <width>581</width>
       <height>771</height>
      </rect>
     </property>
@@ -224,7 +224,7 @@
       <rect>
        <x>10</x>
        <y>30</y>
-       <width>511</width>
+       <width>561</width>
        <height>701</height>
       </rect>
      </property>
@@ -245,7 +245,7 @@
     <widget class="QPushButton" name="btn_clearLog">
      <property name="geometry">
       <rect>
-       <x>440</x>
+       <x>490</x>
        <y>740</y>
        <width>75</width>
        <height>22</height>
@@ -304,23 +304,10 @@
       <string>Close</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="btn_light">
-     <property name="geometry">
-      <rect>
-       <x>240</x>
-       <y>80</y>
-       <width>80</width>
-       <height>24</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Light</string>
-     </property>
-    </widget>
     <widget class="QPushButton" name="btn_close_2">
      <property name="geometry">
       <rect>
-       <x>400</x>
+       <x>240</x>
        <y>80</y>
        <width>80</width>
        <height>24</height>
@@ -356,6 +343,19 @@
       <string>Serial-Number</string>
      </property>
     </widget>
+    <widget class="QPushButton" name="btn_light">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>80</y>
+       <width>80</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Light</string>
+     </property>
+    </widget>
    </widget>
    <zorder>groupBox</zorder>
    <zorder>groupBox_serialSettings</zorder>
@@ -366,7 +366,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1076</width>
+     <width>1128</width>
      <height>21</height>
     </rect>
    </property>
