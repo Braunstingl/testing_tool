@@ -14,7 +14,7 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QGroupBox" name="groupBox_serialSettings">
+   <widget class="QGroupBox" name="gb_serialSettings">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -65,9 +65,9 @@
     <widget class="QComboBox" name="cb_dataBits">
      <property name="geometry">
       <rect>
-       <x>460</x>
+       <x>450</x>
        <y>30</y>
-       <width>43</width>
+       <width>35</width>
        <height>22</height>
       </rect>
      </property>
@@ -75,7 +75,7 @@
     <widget class="QLabel" name="label_3">
      <property name="geometry">
       <rect>
-       <x>420</x>
+       <x>410</x>
        <y>30</y>
        <width>30</width>
        <height>22</height>
@@ -88,7 +88,7 @@
     <widget class="QLabel" name="label_4">
      <property name="geometry">
       <rect>
-       <x>420</x>
+       <x>410</x>
        <y>60</y>
        <width>30</width>
        <height>22</height>
@@ -101,9 +101,9 @@
     <widget class="QComboBox" name="cb_stopBits">
      <property name="geometry">
       <rect>
-       <x>460</x>
+       <x>450</x>
        <y>60</y>
-       <width>41</width>
+       <width>45</width>
        <height>22</height>
       </rect>
      </property>
@@ -111,9 +111,9 @@
     <widget class="QComboBox" name="cb_parityBit">
      <property name="geometry">
       <rect>
-       <x>460</x>
+       <x>450</x>
        <y>90</y>
-       <width>41</width>
+       <width>65</width>
        <height>22</height>
       </rect>
      </property>
@@ -121,9 +121,9 @@
     <widget class="QLabel" name="label_5">
      <property name="geometry">
       <rect>
-       <x>420</x>
+       <x>410</x>
        <y>90</y>
-       <width>30</width>
+       <width>41</width>
        <height>22</height>
       </rect>
      </property>
@@ -159,7 +159,7 @@
       <rect>
        <x>340</x>
        <y>90</y>
-       <width>76</width>
+       <width>51</width>
        <height>22</height>
       </rect>
      </property>
@@ -170,9 +170,9 @@
     <widget class="QCheckBox" name="checkBox_RTS">
      <property name="geometry">
       <rect>
-       <x>290</x>
+       <x>280</x>
        <y>90</y>
-       <width>76</width>
+       <width>51</width>
        <height>22</height>
       </rect>
      </property>
@@ -207,7 +207,7 @@
      </property>
     </widget>
    </widget>
-   <widget class="QGroupBox" name="groupBox">
+   <widget class="QGroupBox" name="gb_Log">
     <property name="geometry">
      <rect>
       <x>540</x>
@@ -256,7 +256,7 @@
      </property>
     </widget>
    </widget>
-   <widget class="QGroupBox" name="groupBox_2">
+   <widget class="QGroupBox" name="gb_remoteCrl">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -357,9 +357,9 @@
      </property>
     </widget>
    </widget>
-   <zorder>groupBox</zorder>
-   <zorder>groupBox_serialSettings</zorder>
-   <zorder>groupBox_2</zorder>
+   <zorder>gb_Log</zorder>
+   <zorder>gb_serialSettings</zorder>
+   <zorder>gb_remoteCrl</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
